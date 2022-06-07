@@ -14,8 +14,28 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      {rel: 'stylesheet', type: 'text/css', href: '/css/styles.css'}
+    ],
+    script: [
+      {
+        src:"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+      },
+      {
+        src:"https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js"
+      },
+      {
+        src:"https://unpkg.com/aos@next/dist/aos.js"
+      },
+      {
+        src:"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      },
+      {
+        src:"js/scripts.js"
+      }
+    ]
   },
+
   generate: {
     routes: function() {
       const fs = require('fs')
