@@ -26,7 +26,7 @@
                                 <div class="col-lg-10 col-xl-8">
                                     <div class="single-post">
                                         <h1>{{blogPost.title}}</h1>
-                                        <p class="lead">Empower communities and energize engaging ideas; scale and impact do-gooders while disruptring industries. Venture philanthropy benefits corporations and people by moving the needle.</p>
+                                        <p class="lead">{{blogPost.description}}</p>
                                         <div class="d-flex align-items-center justify-content-between mb-5">
                                             <div class="single-post-meta me-4">
                                                 <img class="single-post-meta-img" src="assets/img/illustrations/profiles/profile-1.png" />

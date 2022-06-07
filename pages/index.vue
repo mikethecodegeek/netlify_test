@@ -3,7 +3,7 @@
             <div id="layoutDefault_content">
                 <main>
                     <!-- Navbar-->
-                
+                    <Nav/>
                     <!-- Page Header-->
 
 
